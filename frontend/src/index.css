@@ -1,0 +1,31 @@
+﻿html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
+body {
+  background: #050b14;
+  color: #e2e8f0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#root > div {
+  width: 100%;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
